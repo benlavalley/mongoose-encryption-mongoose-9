@@ -1,3 +1,6 @@
+
+# NOTE: this is a fork of the original mongoose-encryption repository, updated to support and require Mongoose 9 after it introduced breaking changes. Original readme is as-is below.
+
 mongoose-encryption
 ==================
 
