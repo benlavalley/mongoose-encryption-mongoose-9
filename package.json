@@ -1,9 +1,9 @@
 {
-  "name": "mongoose-encryption",
-  "description": "Simple encryption and authentication plugin for Mongoose",
-  "version": "2.1.2",
+  "name": "mongoose-encryption-mongoose-9",
+  "description": "Simple encryption and authentication plugin for Mongoose - forked from Joe Goldbeck's original to support Mongoose 9+",
+  "version": "3.0.0",
   "author": {
-    "name": "Joe Goldbeck"
+    "name": "Ben Lavalley"
   },
   "keywords": [
     "mongoose",
@@ -20,35 +20,35 @@
   "types": "./types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/joegoldbeck/mongoose-encryption.git"
+    "url": "git://github.com/benlavalley/mongoose-encryption-mongoose-9.git"
   },
   "bugs": {
-    "url": "https://github.com/joegoldbeck/mongoose-encryption/issues"
+    "url": "https://github.com/benlavalley/mongoose-encryption-mongoose-9/issues"
   },
-  "homepage": "https://github.com/joegoldbeck/mongoose-encryption",
+  "homepage": "https://github.com/benlavalley/mongoose-encryption-mongoose-9",
   "license": "MIT",
   "dependencies": {
-    "async": "^3.2.3",
+    "async": "^3.2.6",
     "buffer-equal-constant-time": "^1.0.1",
     "dotty": "^0.1.2",
-    "json-stable-stringify": "^1.0.0",
-    "mpath": "^0.8.4",
-    "semver": "^5.5.0",
-    "underscore": "^1.5.0"
+    "json-stable-stringify": "^1.3.0",
+    "mpath": "^0.9.0",
+    "semver": "^7.7.3",
+    "underscore": "^1.13.7"
   },
   "peerDependencies": {
-    "mongoose": ">=5.0.0"
+    "mongoose": ">=9.0.0"
   },
   "devDependencies": {
-    "chai": "^1.0.0",
-    "coffeescript": "^1.7.0",
-    "mocha": "^9.0.0",
-    "mongoose": ">=5.0.0",
-    "sinon": "^1.10.3",
-    "typescript": "^4.1.2"
+    "chai": "^6.2.1",
+    "coffeescript": "^2.7.0",
+    "mocha": "^11.7.5",
+    "mongoose": ">=9.0.0",
+    "sinon": "^21.0.0",
+    "typescript": "^5.9.3"
   },
   "engines": {
-    "node": ">=4.4.5"
+    "node": ">=20.19.0"
   },
   "scripts": {
     "test": "mocha ./test --extension coffee --require coffeescript/register --timeout 3000 --exit",
